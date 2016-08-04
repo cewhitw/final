@@ -1,0 +1,102 @@
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00ffff;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: ff1493;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ff1493;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00ffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #ff1493;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #ff1493}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: light-green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ff1493;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #ff1493;
+}
+html { 
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/ec/5a/8e/ec5a8edac361eb38809765f88fad4de4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+	display: block;
+	block-color:#00ffff;
+}
+.wel {
+    color: #ff1493;
+    vertical-align:bottom;
+    padding: 2px 24px;
+    text-decoration: none;
+}
+.bi {
+	 display: block;
+    color: #ff1493;
+    text-align: top-right;
+    padding: 2px 32px;
+    font: cursive;
+}
+.click {
+	color: pink;
+}
